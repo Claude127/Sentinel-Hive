@@ -1,0 +1,115 @@
+# ====================
+# Next.js
+# ====================
+.next/
+out/
+build/
+
+# Incremental Static Regeneration cache (Next.js 13+ with App Router)
+.next/cache/
+/.next/server/
+/.next/types/
+
+# Next.js Build Manifests & traces (never commit these)
+.next/*.json
+.next/**/*.json
+.next/**/*.js
+.next/**/*.mjs
+.next/**/*.ts
+.next/**/*.d.ts
+
+# ====================
+# Dependencies
+# ====================
+node_modules/
+.npm
+.pnpm-store/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# ====================
+# Environment Variables
+# ====================
+.env
+.env*.local
+.env*.production
+.env*.development
+
+# ====================
+# Logs & Debug
+# ====================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# ====================
+# OS & Editor Files
+# ====================
+.DS_Store
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vim
+*~
+.sw[a-p]
+.*.sw[op]
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# WebStorm / IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list/
+tramp
+.\#*
+
+# ====================
+# Testing
+# ====================
+coverage/
+.nyc_output/
+.jest/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# ====================
+# Misc
+# ====================
+*.tsbuildinfo
+*.log
+*.tgz
+*.zip
+*.lock
+.yarn-integrity
+
+# Vercel / Netlify / Cloudflare Pages (if deploying)
+.vercel
+.netlify
+.dist
+.output
+
+# Turborepo (if using)
+.turbo/
+
+# Optional: Prisma (if you're using it)
+prisma/dev.db
+prisma/*.db.journal
